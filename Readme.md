@@ -1,21 +1,18 @@
 # Newthon-Raphson method
 
-Uso del método de Newton-Raphson para encontrar la raiz de una funcion:
+Uso del método de Newton-Raphson para encontrar la raiz de una funcion
 
-```x_n+1 = x_n - f(x_n)/f'(x_n)```
+$x_{n+1} = x_{n} - \Large{f(x_n)\over f'(x_n)}$
 
-### [e^-x - x = 0](e^-x.sce)
-```
-Raíz de la función: e^-x - x = 0
 
-Iteraciones:    6
-x:              0.567143
-```
+### Ejemplo de uso
+```Octave
+	Metodo de Newton-Raphson
+--> x^3-9x^2+x+(90/%pi)
 
-### [x^3 - 5x^2 + 7x - 3](multiple.sce)
-```
-Raíz de la función: x^3 - 5x^2 + 7x - 3
+...
 
-Iteraciones:    6
-x:              1.000000
+f(x) = (1)x^3 + (-9)x^2 + (1)x + (28.64789)
+x = -1.5976471
+iteraciones = 10
 ```
